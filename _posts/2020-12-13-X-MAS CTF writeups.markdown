@@ -37,6 +37,8 @@ As a generalisation the colliding messages are MSG1 and MSG1+HASH_FOR_MSG1+MSG1.
 
 In this challenge we need to get a Discord bot to reveal the flag. The source code is provided as part of the challenge and analysing it quickly reveals a code injection exploit:
 
+![vulnerable code]({{ site.url }}/assets/misc/comfortbot.png)
+
 We can test the vulnerability by sending the bots commands like:
 ```
 comf foo ','
