@@ -4,7 +4,6 @@ title:  "TryHackMe Bookstore writeup"
 date:   2020-12-02 12:59:36 +0200
 categories: writeup tryhackme
 ---
-# Bookstore
 
 This is a writeup for TryHackMe room [Bookstore](https://tryhackme.com/room/bookstoreoc). 
 

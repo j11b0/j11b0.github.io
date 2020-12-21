@@ -27,6 +27,8 @@ url: "https://j11b0.github.io" # the base hostname & protocol for your site, e.g
 twitter_username: j11b0
 github_username:  j11b0
 
+show_excerpts: True
+
 # Build settings
 theme: minima
 plugins:

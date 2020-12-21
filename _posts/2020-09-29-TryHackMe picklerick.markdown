@@ -4,7 +4,6 @@ title:  "TryHackMe Pickle Rick writeup"
 date:   2020-09-29 12:59:36 +0200
 categories: writeup tryhackme
 ---
-# Picke Rick
 
 This is a writeup for TryHackMe room [Pickle Rick](https://tryhackme.com/room/picklerick) that requires me to *exploit a webserver to find 3 ingredients that will help Rick make his potion to transform himself back into a human from a pickle.*
 

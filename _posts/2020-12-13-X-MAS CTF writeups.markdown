@@ -63,7 +63,7 @@ comf foo',window.foo=new XMLHttpRequest(),window.foo.onreadystatechange = functi
 ## Krampus' Lazer Tag
 
  In this challenge you need play 50 rounds of Lazer tag against Krampus in 30 seconds. The instructions are given when you connect to the bot:
-![Krampus instructions]({{ site.url }}/assets/krampustext.png)
+![Krampus instructions]({{ site.url }}/assets/krampus/krampustext.png)
 
 For each round we get both Krampus and player positions in x∈(0,1), y∈(0,1). Since the walls are made out of mirrors that reflect lazer we need to consider reflections when placing the lazer blockers. I googled around how to best calculate reflections until I found this page on Google that demonstrates how to simplify the calculations. The main principle is to reduce the reflections to straight lines, which is illustrated in the image below.
 
@@ -73,16 +73,16 @@ For each round we get both Krampus and player positions in x∈(0,1), y∈(0,1).
 
 
 I setup a Jupyter notebook to visualise the situation and calculate the reflected player positions up to two reflections away:
-![Krampus instructions]({{ site.url }}/assets/krampus1.png)
+![Krampus instructions]({{ site.url }}/assets/krampus/krampus1.png)
 
 I then calculate the midpoints where the lazer converges and that will be the blocker 
 positions.
 
-![Krampus instructions]({{ site.url }}/assets/krampus2.png)
+![Krampus instructions]({{ site.url }}/assets/krampus/krampus2.png)
 
 Next step is to calculate the reflected positions of the traps back to the [0,1],[0,1] coordinates. They overlap very closely to 16 positions but it’s still necessary to round up the coordinates so that there are only 16 positions since that is how many blockers we are given.
 
-![Krampus instructions]({{ site.url }}/assets/krampus3.png)
+![Krampus instructions]({{ site.url }}/assets/krampus/krampus3.png)
 
 Take a look at the notebook for more details: [LazerTag Jupyter notebook](https://github.com/j11b0/lazertag/blob/main/LazerTag.ipynb) or view the final code:
 
