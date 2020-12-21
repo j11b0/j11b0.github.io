@@ -10,7 +10,7 @@ These are the writeups for the [X-MAS CTF 2020 by HTsP](https://xmas.htsp.ro/hom
 
 ## Help a Santa helper?
 
-In this challenge you need to find hash collisions for a custom hashing algorithm. After passing the initial challenge using instructions from [here] (https://security.stackexchange.com/questions/223157/how-can-i-find-a-sha-256-hash-with-a-given-suffix-using-hashcat= we are presented a menu:
+In this challenge you need to find hash collisions for a custom hashing algorithm. After passing the initial challenge using instructions from [here] (https://security.stackexchange.com/questions/223157/how-can-i-find-a-sha-256-hash-with-a-given-suffix-using-hashcat) we are presented a menu:
 
 ```
 Good, you can continue!
