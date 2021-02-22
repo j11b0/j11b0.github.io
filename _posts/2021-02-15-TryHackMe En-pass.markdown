@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TryHackMe En-pass writeup"
-date:   2020-02-15 12:59:36 +0200
+date:   2021-02-15 12:59:36 +0200
 categories: writeup tryhackme
 ---
 
