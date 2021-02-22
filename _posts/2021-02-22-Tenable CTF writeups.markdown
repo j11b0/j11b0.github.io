@@ -5,9 +5,7 @@ date:   2021-02-22 19:59:36 +0200
 categories: ctf
 ---
 
-# Tenable CTF
-
-These are the challenges from [Tenable CTF](https://tenable.ctfd.io/challenges) that I personnaly solved.
+These are the challenges from [Tenable CTF](https://tenable.ctfd.io/challenges) that I personally solved.
 
 ## Random encryption fixed
 
