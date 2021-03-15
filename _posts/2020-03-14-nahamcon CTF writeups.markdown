@@ -6,7 +6,7 @@ categories: ctf
 ---
 
 
-These are the writeups for[Nahamcon CTF 2021](https://ctf.nahamcon.com/) challenges that I personally solved.
+These are the writeups for [Nahamcon CTF 2021](https://ctf.nahamcon.com/) challenges that I personally solved.
 
 ## Buzz
 
