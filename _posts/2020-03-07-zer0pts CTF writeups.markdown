@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "zer0pts CTF 2021 writeups"
-date:   2021-03-22 19:59:36 +0200
+date:   2021-03-07 19:59:36 +0200
 categories: ctf
 ---
 
